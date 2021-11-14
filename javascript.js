@@ -11,3 +11,15 @@ function best() {
             melhor.innerText = 'importantes.html'
         }
 }
+/*function fotohora() {
+    var agora = new Date()
+    var hora = agora.getHours()
+    var img = document.createElement('img')
+    img.setAttribute('id', 'foto')
+    
+    while(hora >= 12) {
+        img = setAttribute('src', 'jovem.png')
+        
+    }
+    
+}*/

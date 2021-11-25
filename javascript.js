@@ -9,15 +9,14 @@ function best() {
             melhor.innerText = 'importantes.html'
         }
 }
-function fotohora() {
-    var agora = new Date()
-    var hora = agora.getHours()
 
-    if(hora > 12) {
-        var img = document.createElement('img')
-        img.setAttribute('id', 'foto')
-        img.setAttribute('src', 'jovem.png')
-        
-    }
-    
+function hora(){
+    var daho = document.getElementById('daho')
+
+    var horas = new Date()
+    var datahora = horas.getHours()
+    var data = new Date()
+    var horadata = data.getDay()
+
+    daho.innerText = `${horadata}, ${datahora}`
 }

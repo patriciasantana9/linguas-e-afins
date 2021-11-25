@@ -26,7 +26,7 @@
 
         </nav> 
 
-        <div onload="fotohora()">
+        <div>
 
             <div id="imagem">
                 <picture>
@@ -39,22 +39,25 @@
                 <h1>Línguas e afins</h1>
                 <p id="cabecalho">Dicas, sugestões de sites, materiais e mais</p>
             </div>
-            
+ 
         </div>
+
     </header>
     
     <input type="search" name="pesquisar" id="pesq">
     <input type="button" value="Buscar no site">
 
     <main>
+        <div onload="hora()">
+            <p id="daho">...</p>
+        </div>
+       
         <div id="melhor">
             <p>Para melhor aproveitar nosso site, digite aqui a sua idade:
             <input type="number" name="idade" id="idade">
             <input type="button" value="Enviar"  onclick="best()"> 
             </p>
         </div>
-
-        <!--<div onload="fotohora()">foto aqui</div>-->
 
         <section> <!--início da section (conteúdo principal)-->
             <h2>Sobre o site</h2>

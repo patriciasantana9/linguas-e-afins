@@ -1,3 +1,24 @@
+function hora() {
+    var daho = document.getElementById('daho')
+
+    var horas = new Date()
+    var datahora = horas.getHours()
+    var minutos = horas.getMinutes()
+
+    var dia = new Date()
+    var diasem = dia.getDay() //como diabos colocar o dia em nome, não número?
+
+    switch (key) {
+        case value:
+            
+            break;
+    
+        default:
+            break;
+    }
+    daho.innerText = `${diasem}, ${datahora}:${minutos}`
+}
+
 function best() {    
     var age = Number(idade.value)
     
@@ -10,13 +31,3 @@ function best() {
         }
 }
 
-function hora(){
-    var daho = document.getElementById('daho')
-
-    var horas = new Date()
-    var datahora = horas.getHours()
-    var data = new Date()
-    var horadata = data.getDay()
-
-    daho.innerText = `${horadata}, ${datahora}`
-}

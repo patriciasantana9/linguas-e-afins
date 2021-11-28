@@ -18,7 +18,7 @@ body {
 header {
     color: var(--cor1);
     background-color: var(--cor2);
-    height: 400px;
+    height: 350px;
     min-width: 385px;
     max-width: 1349px;
     border-style: solid;
@@ -116,11 +116,11 @@ li a {
 }
 
 aside {
-    height: 100px;
+    height: 150px;
     color: var(--cor4);
     width: 355px;
     background-color: var(--cor2);
-    padding: 5px 0px 9px 5px;
+    padding: 3px 0px 9px 5px;
     border-radius: 7px;
     margin-bottom: 25px;
 }

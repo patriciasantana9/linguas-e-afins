@@ -18,7 +18,7 @@ body {
 header {
     color: var(--cor1);
     background-color: var(--cor2);
-    height: 350px;
+    height: 320px;
     min-width: 385px;
     max-width: 1349px;
     border-style: solid;
@@ -28,9 +28,10 @@ header {
 header h1 {
     font-size: 3em;
     font-family: var(--fonte-titulos);
-    padding-top: 30px;
+    padding-top: 0px;
     margin-top: 0px;
     margin-right: 20px;
+    margin-bottom: -5px;
 }
 nav {
     color: var(--cor4);
@@ -60,11 +61,17 @@ div#titulo {
     text-align: right;
     /*padding-right: 230px;*/
 } 
-p#cabecalho{
+p#cabecalho {
     color: var(--cor1);
     font-family: var(--fonte-padro);
     font-size: 15px; 
     margin-right: 20px;
+    padding-bottom: 20px;
+}
+p#ident {
+    font-size: 13px;
+    margin-right: 20px;
+    color: var(--cor1);
 }
 input#email {
     text-align: right;

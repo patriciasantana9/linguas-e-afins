@@ -1,12 +1,12 @@
 function hora() {
-    var daho = document.getElementById('daho')
+    let daho = document.querySelector('div#daho')
+    
+    let horas = new Date()
+    let datahora = horas.getHours()
+    let minutos = horas.getMinutes()
 
-    var horas = new Date()
-    var datahora = horas.getHours()
-    var minutos = horas.getMinutes()
-
-    var dia = new Date()
-    var diasem = dia.getDay() //como diabos colocar o dia em nome, não número?
+    let dia = new Date()
+    let diasem = dia.getDay() //como diabos colocar o dia em nome, não número?
 
     switch (key) {
         case value:

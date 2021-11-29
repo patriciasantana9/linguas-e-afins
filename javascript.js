@@ -8,7 +8,7 @@ function hora() {
     let dia = new Date()
     let diasem = dia.getDay() //como diabos colocar o dia em nome, não número?
 
-    switch (key) {
+ /*   switch (key) {
         case value:
             
             break;
@@ -17,7 +17,7 @@ function hora() {
             break;
     }
     daho.innerText = `${diasem}, ${datahora}:${minutos}`
-}
+}*/
 
 function best() {    
     var age = Number(idade.value)

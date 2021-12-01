@@ -18,7 +18,7 @@ body {
 header {
     color: var(--cor1);
     background-color: var(--cor2);
-    height: 320px;
+    height: 380px;
     min-width: 385px;
     max-width: 1349px;
     border-style: solid;
@@ -76,8 +76,8 @@ p#ident {
 input#email {
     text-align: right;
 }
-input {
-    margin-top: 15px;
+input#button {
+    margin-right: 20px;
 }
 
 main {
@@ -88,6 +88,12 @@ main {
     margin-bottom: 200px;
     text-align: justify;
     text-indent: 30px;
+}
+div#daho {
+    text-align: left;
+    font: oblique normal 15px Times;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 article#primeiro::first-letter {  /*pra deixar a primeira letra diferente*/
     font-size: 3em;

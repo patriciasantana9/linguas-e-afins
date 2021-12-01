@@ -16,6 +16,7 @@ function hora() {
 
     //daho.innerText = `${diasem}, ${datahora}:${minutos}`
 
+    
     switch (diasem) {
         case 0:
             daho.innerText = `${datahora}:${minutos}, domingo, ${datasem} de`

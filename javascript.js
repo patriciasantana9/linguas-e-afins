@@ -95,7 +95,7 @@ function hora() {
     
 }
 
-function best() {    
+/*function best() {    
     var age = Number(idade.value)
     
         if (age > 0 && age < 18) {
@@ -105,5 +105,4 @@ function best() {
         } else if (age > 35) {
             melhor.innerText = 'importantes.html'
         }
-}
-
+}*/

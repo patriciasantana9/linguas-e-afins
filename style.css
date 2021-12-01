@@ -29,7 +29,7 @@ header h1 {
     font-size: 3em;
     font-family: var(--fonte-titulos);
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: 6px;
     margin-right: 20px;
     margin-bottom: -5px;
 }
@@ -76,9 +76,7 @@ p#ident {
 input#email {
     text-align: right;
 }
-input#button {
-    margin-right: 20px;
-}
+
 
 main {
     min-width: 385px;
@@ -122,10 +120,11 @@ h2 {
 
 li {
     padding-bottom: 10px;
+    
 }
 li a {
     color: var(--cor1);
-
+    text-align: left;
 }
 
 aside {

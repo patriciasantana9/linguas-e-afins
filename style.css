@@ -95,7 +95,6 @@ div#daho {
 }
 article#primeiro::first-letter {  /*pra deixar a primeira letra diferente*/
     font-size: 3em;
-    /*text-transform: ;*/
 }
 
 p {

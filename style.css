@@ -18,7 +18,7 @@ body {
 header {
     color: var(--cor1);
     background-color: var(--cor2);
-    height: 380px;
+    height: auto;
     min-width: 385px;
     max-width: 1349px;
     border-style: solid;
@@ -37,6 +37,7 @@ nav {
     color: var(--cor4);
     text-align: right;
     height: 22px;
+    margin-top: 7px;
 }
 nav a {
     text-decoration: none;
@@ -73,19 +74,20 @@ p#ident {
     margin-right: 20px;
     color: var(--cor1);
 }
-input#email {
-    text-align: right;
+input#button {
+    margin-right: 16px;
 }
-
-
 main {
     min-width: 385px;
-    max-width: 900px;
-    padding: 15px;
+    max-width: 1300px;
+    height: auto;
+    padding: 5px 25px 0px 25px;
     margin: auto;
     margin-bottom: 200px;
     text-align: justify;
     text-indent: 30px;
+    border: solid;
+    border-color: #8d6e2556;
 }
 div#daho {
     text-align: left;
@@ -105,6 +107,9 @@ p {
     margin-top: 0px;
     font-weight: bolder;
     line-height: 37px;
+}
+p.email {
+    text-indent: 0px;
 }
 
 h2 {
@@ -135,6 +140,10 @@ aside {
     padding: 3px 0px 9px 5px;
     border-radius: 7px;
     margin-bottom: 25px;
+}
+input.email {
+    text-align: right;
+    margin-bottom: 10px;
 }
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;

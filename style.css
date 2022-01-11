@@ -33,11 +33,15 @@ header h1 {
     margin-right: 20px;
     margin-bottom: -5px;
 }
-nav {
+div nav {
     color: var(--cor4);
     text-align: right;
     height: 22px;
     margin-top: 7px;
+    background: rgb(255, 255, 255, 0,25);
+    backdrop-filter: blur(6px);
+    position: fixed;
+    width: auto;
 }
 nav a {
     text-decoration: none;

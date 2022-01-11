@@ -36,17 +36,22 @@ header h1 {
 div nav {
     color: var(--cor4);
     text-align: right;
-    height: 22px;
-    margin-top: 7px;
+    height: 28px;
+    padding-top: 5px;
+    margin-top: 2px;
+    margin-left: -16px;
     background: rgb(255, 255, 255, 0,25);
     backdrop-filter: blur(6px);
     position: fixed;
-    width: auto;
+    width: 1349px;
 }
 nav a {
     text-decoration: none;
     color: black;
     font-size: 11px;
+    background: rgb(255, 255, 255, 0,25);
+    backdrop-filter: blur(6px);
+
 }
 
 nav a:hover {
@@ -57,10 +62,13 @@ nav a:hover {
 summary {
     font-size: 15px;
     padding: 10px;
+    background: rgb(255, 255, 255, 0,25);
+    backdrop-filter: blur(6px);
+
 }
 div#imagem {
     text-align: left;
-    padding: 15px 0px 0px 15px;
+    padding: 35px 0px 0px 15px;
 }
 div#titulo {
     text-align: right;

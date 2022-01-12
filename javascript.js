@@ -1,5 +1,4 @@
-window.addEventListener('load', hora)     //fazer o carregamento ser automático, então tirar o código do HTML
-
+ 
     function hora() {
         let daho = document.querySelector('div#daho')
         
@@ -97,6 +96,7 @@ window.addEventListener('load', hora)     //fazer o carregamento ser automático
         
         
     }
+// window.addEventListener('load', hora)     //fazer o carregamento ser automático, então tirar o código do HTML. Não deve ser quando a página for carregada, mas quando algo mudar no sistema
 
 /*function best() {    
     var age = Number(idade.value)

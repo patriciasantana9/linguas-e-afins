@@ -96,7 +96,7 @@
         
         
     }
-// window.addEventListener('load', hora)     //fazer o carregamento ser automático, então tirar o código do HTML. Não deve ser quando a página for carregada, mas quando algo mudar no sistema
+    //window.addEventListener('online', hora)     //fazer o carregamento ser automático, então tirar o código do HTML. Não deve ser quando a página for carregada, mas quando algo mudar no sistema
 
 /*function best() {    
     var age = Number(idade.value)

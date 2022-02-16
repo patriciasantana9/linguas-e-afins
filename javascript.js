@@ -96,7 +96,10 @@
         
         
     }
-    //window.addEventListener('online', hora)     //fazer o carregamento ser automático, então tirar o código do HTML. Não deve ser quando a página for carregada, mas quando algo mudar no sistema
+hora();  //isso faz com que a hora apareça sempre que a página for recarregada (mas isso deve acontecer quando a hora muda no sistema)
+//fazer o carregamento ser automático, então tirar o código do HTML. Não deve ser quando a página for carregada, mas quando algo mudar no sistema
+
+        //window.addEventListener('online', hora)     
 
 /*function best() {    
     var age = Number(idade.value)

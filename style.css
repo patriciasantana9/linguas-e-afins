@@ -143,8 +143,13 @@ li a {
     color: var(--cor1);
     text-align: left;
 }
-
+section {
+    position: relative;
+    min-height: 800px;
+    max-height: auto;
+}
 aside {
+    position: absolute;
     height: 150px;
     color: var(--cor4);
     width: 355px;
@@ -152,6 +157,7 @@ aside {
     padding: 3px 0px 9px 5px;
     border-radius: 7px;
     margin-bottom: 25px;
+    right: -13px;
 }
 input.email {
     text-align: right;

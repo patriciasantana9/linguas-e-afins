@@ -1,22 +1,14 @@
- 
-    function hora() {
+function displayTime() {
+    let date = new Date();
+    let time = date.toLocaleTimeString();
+    document.querySelector('#daho').textContent = time 
+}
+
+displayTime();
+const criarRelogio = setInterval(displayTime, 1000)
+   
+   /*function hora() {
         let daho = document.querySelector('div#daho')
-        
-        let horas = new Date()
-        let datahora = horas.getHours()
-        let minutos = horas.getMinutes()
-
-        let dia = new Date()
-        let diasem = dia.getDay() 
-
-        let data = new Date()
-        let datasem = data.getDate()
-
-        let mesano = new Date()
-        let mes = mesano.getMonth()  
-
-        //daho.innerText = `${diasem}, ${datahora}:${minutos}`
-
         
         switch (diasem) {
             case 0:
@@ -95,7 +87,7 @@
         }
         
         
-    }
+    }*/
 hora();  //isso faz com que a hora apareça sempre que a página for recarregada (mas isso deve acontecer quando a hora muda no sistema)
 //fazer o carregamento ser automático, então tirar o código do HTML. Não deve ser quando a página for carregada, mas quando algo mudar no sistema
 

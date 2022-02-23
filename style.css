@@ -33,7 +33,7 @@ header h1 {
     margin-right: 20px;
     margin-bottom: -5px;
 }
-div nav {
+nav.top {
     color: var(--cor4);
     text-align: right;
     height: 28px;
@@ -45,7 +45,7 @@ div nav {
     position: fixed;
     width: 1349px;
 }
-nav a {
+nav a.top {
     text-decoration: none;
     color: black;
     font-size: 11px;
@@ -90,8 +90,12 @@ input#button {
     margin-right: 16px;
 }
 main {
+    /*display: grid;
+    grid-template-columns: 200px 800px;*/
+    /*display: block;*/
+    /*position: absolute;*/
     min-width: 385px;
-    max-width: 1300px;
+    max-width: 1000px;
     height: auto;
     padding: 5px 25px 0px 25px;
     margin: auto;
@@ -119,6 +123,7 @@ p {
     margin-top: 0px;
     font-weight: bolder;
     line-height: 37px;
+    letter-spacing: 1,5px;
 }
 p.email {
     text-indent: 0px;
@@ -144,20 +149,18 @@ li a {
     text-align: left;
 }
 section {
-    position: relative;
+    /*position: relative;*/
     min-height: 800px;
     max-height: auto;
 }
-aside {
-    position: absolute;
+nav.canto {
     height: 150px;
     color: var(--cor4);
     width: 355px;
     background-color: var(--cor2);
     padding: 3px 0px 9px 5px;
-    border-radius: 7px;
+    border-radius: 9px;
     margin-bottom: 25px;
-    right: -13px;
 }
 input.email {
     text-align: right;

@@ -11,17 +11,17 @@
 <body> <!--colocar isso diretamente no .js-->  <!---->   <!--onload="hora()"-->
     <header>
         <div>
-            <nav>
+            <nav class="top">
                  <!--substituir o mais rápido possível por icones mais naturais-->
-                 <a href="https://instagram.com/patriciasantana9?utm_medium=copy_link" target="_blank"><img src="favicon/instagram-icon.png" alt="favicon-instagram"></a>
-                 <a href="https://www.facebook.com/patriciasant33" target="_blank"><img src="favicon/facebook-icon.png" alt="favicon-facebook"></a>
-                 <a href="https://pin.it/1zpvzYa" target="_blank"><img src="favicon/pinterest-icon.png" alt="favicon-pinterest"></a>
+                 <a href="https://instagram.com/patriciasantana9?utm_medium=copy_link" target="_blank" class="top"><img src="favicon/instagram-icon.png" alt="favicon-instagram"></a>
+                 <a href="https://www.facebook.com/patriciasant33" target="_blank" class="top"><img src="favicon/facebook-icon.png" alt="favicon-facebook"></a>
+                 <a href="https://pin.it/1zpvzYa" target="_blank" class="top"><img src="favicon/pinterest-icon.png" alt="favicon-pinterest"></a>
                 <details>
                     <summary>Menu</summary>
-                    <summary><a href="aplicativos.html" id="app">Aplicativos</a> <!--como pegar isso como link?--></summary>
-                    <summary><a href="dicas.html" id="dic">Dicas dos seguidores</a></summary>
-                    <summary><a href="importantes.html" id="imp">Tópicos importantes</a></summary>
-                    <summary><a href="#">Sobre mim</a></summary>
+                    <summary><a href="aplicativos.html" id="app" class="top">Aplicativos</a> <!--como pegar isso como link?--></summary>
+                    <summary><a href="dicas.html" id="dic" class="top">Dicas dos seguidores</a></summary>
+                    <summary><a href="importantes.html" id="imp" class="top">Tópicos importantes</a></summary>
+                    <summary><a href="#" class="top">Sobre mim</a></summary>
                 </details>
             </nav>
         </div>
@@ -66,7 +66,7 @@
             <article id="primeiro"> <!--não se usa números como id e class?-->
                 
                 <p>A aquisição de novas línguas tem se provado de grande utilidade para as pessoas de forma geral. Além de provas científicas que indicam a <ins> melhora da memória e do envelhecimento, saber mais de uma línguas pode ajudar na busca de melhores vagas de emprego, facilitar na hora de fazer uma viagem internacional e outras vantagens</ins>.</p> 
-                <p>Por conta disso e da simples diversão em conhecer novas culturas e falas, existem muitas formas de aprender uma língua, seja de forma autônoma, seja por meio de cursos com acpmpanhamento de professores.</p>
+                <p>Por conta disso e da simples diversão em conhecer novas culturas e falas, existem muitas formas de aprender uma língua, seja de forma autônoma, seja por meio de cursos com acompanhamento de professores.</p>
                 <p>Aqui, em nosso site, você podera encontrar diversas dessas dicas: também disponibilizamos uma área onde você pode encontrar outros estudantes, com quem pode trocar conhecimentos e praticar a nova língua.</p>
 
             </article>
@@ -80,14 +80,6 @@
                 
             </article>
             
-            <aside>
-                <ul> <!--devo colocar isso na lateral-->
-                    <p>Leia mais:</p>
-                    <li><a href="#">Maiores erroros durante o estudo</a></li>
-                    <li><a href="#">Sobre intercâmbio: uma possibilidade</a></li>
-                    <li><a href="#">Como aprender com filmes e séries</a></li>
-                </ul>
-            </aside>
             
             <p class="email">Quer receber novidades do nosso site? Cadastre seu e-mail para atualizações imediatas em nosso grupo!</p>
             <input type="email" name="E-mail" class="email">
@@ -95,6 +87,18 @@
         </section> <!--final da section (conteúdo principal)-->
 
     </main>
+
+    <nav class="canto">
+        <div>
+            <ul> <!--devo colocar isso na lateral-->
+                <p>Leia mais:</p>
+                <li><a href="#">Maiores erros durante o estudo</a></li>
+                <li><a href="#">Sobre intercâmbio: uma possibilidade</a></li>
+                <li><a href="#">Como aprender com filmes e séries</a></li>
+            </ul>
+        </div>
+    </nav>
+    
     
     <footer>Site amostra desenvolvido por <strong>Patrícia Santana</strong>.</footer>
     <script defer src="javascript.js"></script>

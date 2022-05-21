@@ -10,7 +10,6 @@
     --fonte-titulos: 'Zen Antique', sans-serif;
     --fonte-padro: 'Source Serif Pro', serif
 }
-
 body {
     background-color: white;
     margin: auto;
@@ -18,12 +17,63 @@ body {
 header {
     color: var(--cor1);
     background-color: var(--cor2);
-    height: auto;
-    min-width: 385px;
-    max-width: 1349px;
+    height: 35vh;
+    width: 98.7vw;
     border-style: solid;
     border-color: #8d6e2556;
     margin: auto;
+}
+.menu {
+    color: var(--cor4);
+    text-align: right;
+    height: 65px;
+    padding-top: 5px;
+    margin-top: 4px;
+    padding-right: 17px;
+    background: rgb(218, 116, 43, 0,25);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    width: 98.3vw;
+    display: flex; /*fica na tag pai*/
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 12px;
+}
+a {
+    padding: 5px;
+    color: var(--cor1);
+    text-align: left;
+}
+.secao-links {
+    gap: 12px;
+}
+.top {
+    text-decoration: underline;
+    color: black;
+    font-size: 15px;
+    gap: 10px;
+    background: rgb(255, 255, 255, 0,25);
+    backdrop-filter: blur(6px);
+}
+nav a:hover {
+    background-color: var(--cor1);
+}
+summary {
+    font-size: 15px;
+    padding: 10px;
+    background: rgb(255, 255, 255, 0,25);
+    backdrop-filter: blur(6px);
+}
+.header-imagem-titulo {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+div#titulo {
+    text-align: right;
 }
 header h1 {
     font-size: 3em;
@@ -33,47 +83,6 @@ header h1 {
     margin-right: 20px;
     margin-bottom: -5px;
 }
-nav.top {
-    color: var(--cor4);
-    text-align: right;
-    height: 65px;
-    padding-top: 5px;
-    margin-top: -12px;
-    margin-left: -16px;
-    background: rgb(218, 116, 43, 0,25);
-    backdrop-filter: blur(3px);
-    position: fixed;
-    width: 1349px;
-}
-nav a.top {
-    text-decoration: none;
-    color: black;
-    font-size: 11px;
-    background: rgb(255, 255, 255, 0,25);
-    backdrop-filter: blur(6px);
-
-}
-
-nav a:hover {
-    background-color: var(--cor1);
-    padding: 10px;
-}
-
-summary {
-    font-size: 15px;
-    padding: 10px;
-    background: rgb(255, 255, 255, 0,25);
-    backdrop-filter: blur(6px);
-
-}
-div#imagem {
-    text-align: left;
-    padding: 70px 0px 0px 15px;
-}
-div#titulo {
-    text-align: right;
-    /*padding-right: 230px;*/
-} 
 p#cabecalho {
     color: var(--cor1);
     font-family: var(--fonte-padro);
@@ -90,18 +99,15 @@ input#button {
     margin-right: 16px;
 }
 main {
-    /*display: grid;
-    grid-template-columns: 200px 800px;*/
-    /*display: block;*/
-    /*position: absolute;*/
-    min-width: 385px;
-    max-width: 1000px;
+    display: flex;
+    width: 80vw;
     height: auto;
-    padding: 5px 25px 0px 25px;
     margin: auto;
     margin-bottom: 200px;
     text-align: justify;
     text-indent: 30px;
+    gap: 5px;
+    align-items: baseline;
 }
 div#daho {
     text-align: left;
@@ -112,7 +118,6 @@ div#daho {
 article#primeiro::first-letter {  /*pra deixar a primeira letra diferente*/
     font-size: 3em;
 }
-
 p {
     color: var(--cor4);
     font-family: var(--fonte-padro);
@@ -125,8 +130,8 @@ p {
 }
 p.email {
     text-indent: 0px;
+    color: var(--cor3);
 }
-
 h2 {
     font-size: 2.3em;
     font-weight: bold;
@@ -135,30 +140,35 @@ h2 {
     text-align: center;
     margin-top: 0px;
     padding-top: 20px;
-    text-decoration: underline;
 }
-
-li {
-    padding-bottom: 10px;
-    
-}
-li a {
-    color: var(--cor1);
-    text-align: left;
-}
-section {
-    /*position: relative;*/
-    min-height: 800px;
-    max-height: auto;
+.secao-principal {
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
 }
 nav.canto {
-    height: 150px;
+    font-size: 15px;
+    height: fit-content;
+    min-width: 50px;
+    max-width: fit-content;
     color: var(--cor4);
-    width: 355px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.links-lista {
     background-color: var(--cor2);
-    padding: 3px 0px 9px 5px;
-    border-radius: 9px;
-    margin-bottom: 25px;
+    padding: 7px;
+    border-radius: 5px 0px;  
+}
+.links-canto {
+    color: var(--cor4);
+    padding: 5px;
+}
+.div-email {
+    padding: 7px;
+    margin-bottom: 5px;   
 }
 input.email {
     text-align: right;
@@ -170,5 +180,9 @@ footer {
     color: var(--cor3);
     background-color: var(--cor1);
     text-align: center;
-    height: 20px;
+    padding: 10px;
+    height: fit-content; 
+}
+.para-footer {
+    border-top: solid var(--cor3);
 }

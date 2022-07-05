@@ -3,7 +3,7 @@ function displayTime() {
     let time = date.toLocaleTimeString();
     document.querySelector('#daho').textContent = time 
 }
-
+ 
 displayTime();
 const criarRelogio = setInterval(displayTime, 1000)
    

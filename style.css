@@ -12,28 +12,19 @@
 }
 body {
     background-color: white;
-    margin: auto;
+    margin: 0 auto;
 }
-header {
-    color: var(--cor1);
-    background-color: var(--cor2);
-    height: 35vh;
-    width: 98.7vw;
-    border-style: solid;
-    border-color: #8d6e2556;
-    margin: auto;
-}
-.menu {
+.menu { /*barra horizontal transparente*/
     color: var(--cor4);
     text-align: right;
-    height: 65px;
+    height: 6vh;
+    width: 98.3vw;
     padding-top: 5px;
-    margin-top: 4px;
+    margin-top: 0px;
     padding-right: 17px;
     background: rgb(218, 116, 43, 0,25);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px); /*borrado*/
     position: fixed;
-    width: 98.3vw;
     display: flex; /*fica na tag pai*/
     flex-direction: row; 
     justify-content: flex-end;
@@ -65,8 +56,17 @@ summary {
     background: rgb(255, 255, 255, 0,25);
     backdrop-filter: blur(6px);
 }
+header {
+    color: var(--cor1);
+    background-color: var(--cor2);
+    height: 38vh;
+    width: 98.7vw;
+    border-style: solid;
+    border-color: #8d6e2556;
+    margin: auto;
+}
 .header-imagem-titulo {
-    padding-top: 75px;
+    padding-top: 6vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -76,14 +76,14 @@ div#titulo {
     text-align: right;
 }
 header h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family: var(--fonte-titulos);
     padding-top: 0px;
     margin-top: 6px;
     margin-right: 20px;
     margin-bottom: -5px;
 }
-p#cabecalho {
+p#cabecalho { 
     color: var(--cor1);
     font-family: var(--fonte-padro);
     font-size: 15px; 
@@ -98,16 +98,22 @@ p#ident {
 input#button {
     margin-right: 16px;
 }
-main {
-    display: flex;
-    width: 80vw;
-    height: auto;
+main.tudo {
+    max-width: 85vw;
+    min-width: 95px;
+    height: fit-content;
     margin: auto;
-    margin-bottom: 200px;
+    margin-top: 3vh;
+    margin-bottom: 7vh;
     text-align: justify;
     text-indent: 30px;
-    gap: 5px;
-    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
 }
 div#daho {
     text-align: left;
@@ -115,7 +121,7 @@ div#daho {
     margin-bottom: 10px;
     margin-left: 15px;
 }
-article#primeiro::first-letter {  /*pra deixar a primeira letra diferente*/
+.prima::first-letter {  /*pra deixar a primeira letra diferente*/
     font-size: 3em;
 }
 p {
@@ -142,20 +148,17 @@ h2 {
     padding-top: 20px;
 }
 .secao-principal {
-    height: 100vh;
-    width: 60vw;
+    height: 100%;
+    width: 65vw;
     display: flex;
     flex-direction: column;
 }
 nav.canto {
     font-size: 15px;
     height: fit-content;
-    min-width: 50px;
+    min-width: 20px;
     max-width: fit-content;
     color: var(--cor4);
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
 }
 .links-lista {
     background-color: var(--cor2);

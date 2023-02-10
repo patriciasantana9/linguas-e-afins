@@ -6,6 +6,7 @@
     --cor2: #EFF0ED;
     --cor3: white;
     --cor4: black;
+    --cor5: rgba(245, 245, 245, 0.432);
 
     --fonte-titulos: 'Zen Antique', sans-serif;
     --fonte-padro: 'Source Serif Pro', serif
@@ -44,28 +45,30 @@ a {
     color: black;
     font-size: 15px;
     gap: 10px;
-    background: rgb(255, 255, 255, 0,25);
-    backdrop-filter: blur(6px);
 }
 nav a:hover {
+    color: var(--cor3);
     background-color: var(--cor1);
+    border-radius: 5px;
+}
+details {
+    background: var(--cor5);
+    border-radius: 10%;
 }
 summary {
     font-size: 15px;
     padding: 10px;
-    background: rgb(255, 255, 255, 0,25);
-    backdrop-filter: blur(6px);
 }
 header {
     color: var(--cor1);
     background-color: var(--cor2);
-    height: 38vh;
-    width: 98.7vw;
-    border-style: solid;
-    border-color: #8d6e2556;
+    height: 38%;
+    width: 100%;
     margin: auto;
+    margin: 0px 0px;
 }
 .header-imagem-titulo {
+    size: 40%;
     padding-top: 6vh;
     display: flex;
     justify-content: space-around;
@@ -162,12 +165,13 @@ nav.canto {
 }
 .links-lista {
     background-color: var(--cor2);
-    padding: 7px;
+    padding: 4px;
     border-radius: 5px 0px;  
 }
-.links-canto {
+nav li {
     color: var(--cor4);
     padding: 5px;
+    border-radius: 9px;
 }
 .div-email {
     padding: 7px;

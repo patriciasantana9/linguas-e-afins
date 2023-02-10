@@ -1,2 +1,2 @@
 # aprender-linguas
- Repositório modelo.
+ Repositório modelo em constante aprimoramento.

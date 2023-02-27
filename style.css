@@ -21,8 +21,8 @@ body {
         "header header"
         "main aside"
         "footer footer";   
-    grid-template-rows: 38vh 1fr 20%;
-    grid-template-columns: 1fr 70px;
+    grid-template-rows: 38% 1fr 20px;   /*altura*/
+    grid-template-columns: 75vw 25vw;   /*largura*/
 }
 .menu { /*barra horizontal transparente*/
     color: var(--cor4);
@@ -77,8 +77,8 @@ header {
     grid-area: header;
     color: var(--cor1);
     background-color: var(--cor2);
-    height: 38%;
-    width: 100%;
+    /* height: 38%; */
+    /* width: 100%; */
     margin: auto;
     margin: 0px 0px;
 }
@@ -117,6 +117,7 @@ p#ident {
     margin-right: 16px;
 }
 main.tudo {
+    background-color: pink;
     grid-area: main;
     max-width: 85vw;
     min-width: 95px;
@@ -173,6 +174,7 @@ h2 {
     flex-direction: column;
 }
 .canto {
+    background-color: blueviolet;
     grid-area: aside;
     font-size: 15px;
     height: fit-content;

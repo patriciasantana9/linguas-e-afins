@@ -13,18 +13,18 @@
 }
 body {
     background-color: white;
-    width: 100vw;
+    height: 100vh;
+    width: 98.3vw;
     margin: 0 auto;
     display: grid;
     grid-template-areas: 
-        "nav nav"
         "header header"
         "main aside"
-        "footer footer";
-    ;
+        "footer footer";   
+    grid-template-rows: 38vh 1fr 20%;
+    grid-template-columns: 1fr 70px;
 }
 .menu { /*barra horizontal transparente*/
-    grid-area: nav;
     color: var(--cor4);
     text-align: right;
     height: 6vh;

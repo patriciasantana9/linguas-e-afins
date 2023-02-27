@@ -51,6 +51,11 @@ nav a:hover {
     background-color: var(--cor1);
     border-radius: 5px;
 }
+.canto a:hover {
+    color: var(--cor3);
+    background-color: var(--cor1);
+    border-radius: 5px;
+}
 details {
     background: var(--cor5);
     border-radius: 10%;
@@ -75,7 +80,7 @@ header {
     align-items: center;
     padding-bottom: 20px;
 }
-div#titulo {
+#titulo {
     text-align: right;
 }
 header h1 {
@@ -98,7 +103,7 @@ p#ident {
     margin-right: 20px;
     color: var(--cor1);
 }
-input#button {
+#button {
     margin-right: 16px;
 }
 main.tudo {

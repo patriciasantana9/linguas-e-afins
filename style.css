@@ -21,8 +21,9 @@ body {
         "header header"
         "main aside"
         "footer footer";   
-    grid-template-rows: 38% 1fr 20px;   /*altura*/
-    grid-template-columns: 75vw 25vw;   /*largura*/
+    grid-template-rows: 38% 1fr 20px;   /*vert., altura*/
+    grid-template-columns: 75vw 25vw;   /*hor., largura*/
+    row-gap: 10px;
 }
 .menu { /*barra horizontal transparente*/
     color: var(--cor4);

@@ -127,7 +127,6 @@ div.centro {
     display: grid;
     grid-template-areas: 
         "main aside";   
-    /* grid-template-rows: 38% 1fr 20px;   vert., altura */
     grid-template-columns: 75% 25%;   /*hor., largura*/
     column-gap: 0px;
 }
@@ -197,15 +196,12 @@ h2 {
     max-width: fit-content;
 }
 .links-lista {
-    line-height: 24px;
+    line-height: 30px;
     padding: 4px;
     margin-top: 30%;
-    border-radius: 5px 0px;
 }
 aside li {
     color: var(--cor4);
-    padding: 5px;
-    border-radius: 9px;
 }
 .div-email {
     padding: 7px;

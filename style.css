@@ -11,8 +11,11 @@
     --fonte-titulos: 'Zen Antique', sans-serif;
     --fonte-padro: 'Source Serif Pro', serif
 }
+* {
+    margin: 0px;
+}
 body {
-    height: 100vh;
+    height: 108vh;
     width: 98.3vw;
     margin: 0 auto;
     display: grid;
@@ -117,9 +120,9 @@ p#ident {
     margin-right: 16px;
 }
 div.centro {
-    background-color: var(--cor5);
     width: 80vw;
-    margin: auto;
+    padding: 0px;
+    margin: 0px auto;
     grid-area: centro;
     display: grid;
     grid-template-areas: 
@@ -127,15 +130,14 @@ div.centro {
     /* grid-template-rows: 38% 1fr 20px;   vert., altura */
     grid-template-columns: 75% 25%;   /*hor., largura*/
     column-gap: 0px;
-    }
+}
 main.tudo {
-    background-color: pink;
     grid-area: main;
     width: 58vw;
     height: fit-content;
     padding-right: 20px;
     margin: auto;
-    /* margin: 3vh 0px 7vh 0; */
+    margin-bottom: 100px;
     text-align: justify;
     text-indent: 30px;
     display: flex;
@@ -187,15 +189,14 @@ h2 {
 }
 .canto {
     color: var(--cor4);
-    background-color: aqua; 
+    margin-top: 0px;
     grid-area: aside;
     font-size: 15px;
-    height: fit-content;
+    height: auto;
     min-width: 20px;
     max-width: fit-content;
 }
 .links-lista {
-    /* background-color: var(--cor2); */
     line-height: 24px;
     padding: 4px;
     margin-top: 30%;

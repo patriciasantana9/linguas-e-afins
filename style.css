@@ -12,7 +12,6 @@
     --fonte-padro: 'Source Serif Pro', serif
 }
 body {
-    background-color: white;
     height: 100vh;
     width: 98.3vw;
     margin: 0 auto;
@@ -52,7 +51,7 @@ a {
 }
 .top {
     text-decoration: underline;
-    color: black;
+    color: var(--cor4);
     font-size: 15px;
     gap: 10px;
 }
@@ -118,7 +117,9 @@ p#ident {
     margin-right: 16px;
 }
 div.centro {
-    background-color: bisque;
+    background-color: var(--cor5);
+    width: 80vw;
+    margin: auto;
     grid-area: centro;
     display: grid;
     grid-template-areas: 
@@ -185,13 +186,13 @@ h2 {
     flex-direction: column;
 }
 .canto {
+    color: var(--cor4);
     background-color: aqua; 
     grid-area: aside;
     font-size: 15px;
     height: fit-content;
     min-width: 20px;
     max-width: fit-content;
-    color: var(--cor4);
 }
 .links-lista {
     /* background-color: var(--cor2); */

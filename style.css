@@ -18,11 +18,11 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-areas: 
-        "header header"
-        "main aside"
-        "footer footer";   
-    grid-template-rows: 38% 1fr 20px;   /*vert., altura*/
-    grid-template-columns: 75% 25%;   /*hor., largura*/
+        "header"
+        "centro"
+        "footer";   
+    /* grid-template-rows: 38% 1fr 20px;   vert., altura */
+    grid-template-columns: 100vw;   /*hor., largura*/
     row-gap: 10px;
 }
 .menu { /*barra horizontal transparente*/
@@ -117,6 +117,16 @@ p#ident {
 #button {
     margin-right: 16px;
 }
+div.centro {
+    background-color: bisque;
+    grid-area: centro;
+    display: grid;
+    grid-template-areas: 
+        "main aside";   
+    /* grid-template-rows: 38% 1fr 20px;   vert., altura */
+    grid-template-columns: 75% 25%;   /*hor., largura*/
+    column-gap: 0px;
+    }
 main.tudo {
     background-color: pink;
     grid-area: main;
@@ -175,7 +185,7 @@ h2 {
     flex-direction: column;
 }
 .canto {
-    /* background-color: aqua; */
+    background-color: aqua; 
     grid-area: aside;
     font-size: 15px;
     height: fit-content;

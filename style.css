@@ -133,8 +133,8 @@ div.centro {
 main.tudo {
     grid-area: main;
     width: 58vw;
-    height: fit-content;
-    padding-right: 20px;
+    height: 80vh;
+    padding: 20px;
     margin: auto;
     margin-bottom: 100px;
     text-align: justify;
@@ -146,7 +146,10 @@ main.tudo {
     align-content: center;
     flex-wrap: wrap;
     gap: 18px;
-    border-right: solid 1px var(--cor1);
+    /* border-right: solid 1px var(--cor1); */
+    border-radius: 10px;
+    background-color: var(--cor5);
+    box-shadow: 2px 5px 20px 0px #0000001a;
 }
 div#daho {
     text-align: left;

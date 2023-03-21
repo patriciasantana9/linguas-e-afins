@@ -116,8 +116,23 @@ p#ident {
     margin-right: 20px;
     color: var(--cor1);
 }
-#button {
+#pesquisar {
     margin-right: 16px;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 5px;
+}
+#enviar_email {
+    margin-right: 16px;
+    color: var(--cor1);
+    background-color: var(--cor3);
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 5px;    
 }
 div.centro {
     width: 80vw;
@@ -215,9 +230,12 @@ aside li {
     padding: 7px;
     margin-bottom: 5px;   
 }
-input.email {
+input {
     text-align: right;
     margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 9px;
+    border: none;
 }
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -227,6 +245,10 @@ footer {
     text-align: center;
     padding: 10px;
     height: fit-content; 
+}
+footer span {
+    color: var(--cor3);
+    background-color: var(--cor1);
 }
 .para-footer {
     border-top: solid var(--cor3);
